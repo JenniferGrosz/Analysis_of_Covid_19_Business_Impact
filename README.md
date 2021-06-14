@@ -15,8 +15,6 @@ They don’t know exactly what analyses they want you to run or variables they w
 
 
 # Reason for running the analysis we ran
-Prior, we explored how COVID-19 has affected the health of the retail industry as measured by employment and how the retail industry fared relative to the other industries. In the last part of this analysis, we dive into the demographics of individuals who are working and earning money. 
-
 The objective for this analysis was to determine who has money to spend and what has changed about who is working and earning money. In order to satisfy this objective, we have generated the following linear probability models, all of which have the intended goal of presenting a clear understanding of who is more likely to be currently working and earning money at this time through the comparative lens of each analysis:
 
 Gender Analysis – Our first regression model is an analysis of the associated effect being female during the COVID-19 pandemic has on a person’s probability to be employed relative to being male. Specifically, this model is addressing our objective through the lens of who has a higher probability to be employed, a person who is female or male.
