@@ -1,7 +1,6 @@
-# Applied_Econometrics_Final_Project
-OMSBA 5300 Winter 2021 Data Translation Challenge
-
-#### Author: Jennifer Grosz, Arunima Roy
+# Covid-19 Business Impact RE: Changes in the retail industry's workforce 
+##### Seattle University - Applied Econometrics 5300 - Data Translation Challenge March 2021
+##### Author: Jennifer Grosz, Arunima Roy
 
 ## The Task
 You work for a company in the retail sector. Your company knows how well they’re weathering the pandemic, but they are having difficulty figuring out what the effect has been on the rest of the retail sector and the rest of the economy. Everyone is being tight with their numbers!
@@ -11,6 +10,7 @@ So, they’ve brought you on and pointed you towards the IPUMS release of the Cu
 Why employment data? They figure that revenues can be misrepresented, or might be affected by government aid. But employment in an industry can tell you a lot about how well that industry is doing!
 
 They don’t know exactly what analyses they want you to run or variables they want you to use - figuring that out is your job. Below is the question they'd like answered from this analysis:
+
 - Retail needs to worry about who has money to spend - what has changed about who is working and earning money?
 
 
