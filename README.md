@@ -14,7 +14,7 @@ They don’t know exactly what analyses they want you to run or variables they w
 - Retail needs to worry about who has money to spend - what has changed about who is working and earning money?
 
 
-# Reason for running the analysis we ran
+## Reason for running the analysis we ran
 The objective for this analysis was to determine who has money to spend and what has changed about who is working and earning money. In order to satisfy this objective, we have generated the following linear probability models, all of which have the intended goal of presenting a clear understanding of who is more likely to be currently working and earning money at this time through the comparative lens of each analysis:
 
 Gender Analysis – Our first regression model is an analysis of the associated effect being female during the COVID-19 pandemic has on a person’s probability to be employed relative to being male. Specifically, this model is addressing our objective through the lens of who has a higher probability to be employed, a person who is female or male.
@@ -27,7 +27,7 @@ Highest Educational Attainment Analysis – Our fourth regression model is an an
 
 Racial Category Analysis – Our fifth regression model is an analysis of the associated effect being a certain race during the COVID-19 pandemic has on a person’s probability to be employed relative to other racial categories. The racial categories included in this analysis are White, Black, American Indian/Aleut/Eskimo, Asian, Hawaiian/ Pacific Islander and Mixed races. Specifically, this model is addressing our objective through the lens of who has a higher probability to be employed, a person who is White or Black or American Indian/Aleut/Eskimo or Asian or Hawaiian/ Pacific Islander or Mixed.
 
-# How our analysis answers "Who has money to spend? - What has changed about who is working and earning money?"
+## How our analysis answers "Who has money to spend? - What has changed about who is working and earning money?"
 For each of the five analyses conducted our regression models are constructed in a similar general format that sets a binary variable indicating employed or not employed as the dependent variable, our measure of interest (gender, marriage status, age generation, educational achievement level, and racial category) interacted with a binary COVID-19 variable since this is our true measure of interest and will present a measure for the effect COVID-19 has on the given demographic variable of interest. The COVID-19 variable indicates whether the date from which the relevant associated data was collected prior to April 2020 which has been assigned as the “pre-COVID-19” period in our data set or the relevant associated data was collected from a time after February 2020, which has been assigned as the “current COVID-19” period in our data set. We then also included an interaction between the binary COVID-19 indicator variable with an incrementally increasing variable to represent the passing of time measured in 1-month units. We included this additional interaction in our model to control for the correlation we believe exists between time and the COVID-19 pandemic variable in our model. To verify the validity of our assumption about a potential correlation, we ran a correlation matrix between the time and COVID-19 variables and found that our assumption was accurate. The test showed a .8519 correlation coefficient which is to be interpreted as the indication of a strong correlation between time and the COVID-19 variables in our data set.
 
 It is our belief that determining who is working and earning money can be answered through an analysis of different demographic elements. Alone, one of our models would not properly answer this question, but together the conclusions drawn from the results of our analysis can build a clear picture of the type of person who is most likely to be working and earning money at this time that our company in the Retail sector should be focusing on for marketing initiatives and targeting in sales directives.
@@ -78,7 +78,7 @@ covid: dummy variable to indicate whether the associated data was collected on a
 
 time: incrementally increasing variable to represent the passing of time measured in 1-month units
 
-# Interpretation and Presentation of Regression Results 
+## Interpretation and Presentation of Regression Results 
 The regression model we deemed most appropriate for this analysis was the linear probability model with different interactions between the COVID-19 and the various demographic variables including a control for the effect of time via an interaction element in the models between COVID-19 and time. 
 
 #### Gender Analysis
@@ -223,7 +223,7 @@ Figure 5.
 Above in Figure 5, when quarantine started due to COVID-19 in the US, which was in March 2020, there is an immediate decline in employment between individuals of all racial backgrounds. The hardest hit group were individuals with an American Indian/ Aleut/ and Eskimo background. With the latest 2021 data, it looks like racially, all the different groups are around the same employment rate, ranging between .85 and .95. 
 
 
-# Assumption Acknowledgement
+## Assumption Acknowledgement
 The linear probability regression model used for each regression model of our analysis assumes that the probability of our outcome is a linear function of the regressors, when in reality we must acknowledge that the true relationship between a binary outcome, in our case: being employed or not being employed, and the binary or categorical explanatory variable used in our models as the variable of interest are going to have an inherently nonlinear relationship. In an effort to best accommodate this assumption violation, we have provided supplemental visuals where employment rate is being used as a substitute for the employed outcome variable in our linear probability regression models.
 
 Gender Analysis:
@@ -243,7 +243,7 @@ Similar to the second assumption for Age, we grouped highest educational attainm
 Racial Category Analysis:
 Finally, for the racial category analysis, we made the same grouped assumption as the previous analysis where we bucketed anyone who identified as more than one unique racial group in their response for the "race" variable in the IPUMS CPA data into a "Mixed" race category. By doing this we once again may have missed out on the nuanced, individual multi-race level effects this pandemic may have had on the employment status for people who are different inner-group races.
 
-# General Answer to "Who has money to spend?"
+## General Answer to "Who has money to spend?"
 Briefly stated, on average as of 2021 the following are our conclusions: 
 1) Women are working more than men.
 
@@ -263,7 +263,7 @@ American Indian/Aleut/Eskimo people are working the least.
 
 We found supporting evidence for each of these claims as shown in Figures 1 - 5 above showing average employment rates per grouping for each of the demographic variables evaluated in this analysis.
 
-# General Answer to "What has changed about who is working and earning money?"
+## General Answer to "What has changed about who is working and earning money?"
 On average, over the year preceding February 2020 the following are our conclusions: 
 
 1. Women have historically been more likely to be employed than men, but employment rate trends show that this claim is true at times, but not always true. The employment rate for women can be seen occasionally dipping below the employment rate for men. 
