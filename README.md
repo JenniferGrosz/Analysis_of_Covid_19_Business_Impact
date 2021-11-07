@@ -81,7 +81,7 @@ time: incrementally increasing variable to represent the passing of time measure
 ## Interpretation and Presentation of Regression Results 
 The regression model we deemed most appropriate for this analysis was the linear probability model with different interactions between the COVID-19 and the various demographic variables including a control for the effect of time via an interaction element in the models between COVID-19 and time. 
 
-#### Gender Analysis
+### Gender Analysis
 The first regression analysis was conducted to determine the associated effect of being a female during the COVID-19 pandemic has on a person's probability of being employed relative to being male during the COVID-19 pandemic.   
 ![Gender Analysis](/Images/one.png)
 
@@ -101,7 +101,7 @@ Since the beginnings of quarantine, employment rates have gone up but given the 
 One significant take away from this visual is that females have an employment rate that is higher than the employment rate for males as of January 2021.
 
 
-#### Marriage Status Analysis  
+### Marriage Status Analysis  
 The second regression analysis was conducted to determine the associated effect being married during the COVID-19 pandemic has on a person's probability of being employed relative to not being married during the COVID-19 pandemic. 
 ![Marriage Status Analysis](/Images/three.png)
 
@@ -122,7 +122,7 @@ We can see that from October 2020, the married employment rate is holding steady
 
 As of January 2021, this visual shows that the employment rate for married people is higher than the employment rate for non-married people.
 
-#### Age Generation Analysis
+### Age Generation Analysis
 The third regression analysis was conducted to determine the associated effect of being in one age generation during the COVID-19 pandemic has on a person's probability of being employed relative to being in another age generation during the COVID-19 pandemic. 
 ![Age Generation Analysis](/Images/five.png)
 
@@ -153,7 +153,7 @@ We can see that from December 2020, the employment rate for people in the Millen
 
 As of January 2021, this visual shows that the employment rates for Baby Boomers and Generation X are about the same, and the highest, followed by a slight downward trend in the employment rate for Millennials and finally the employment rate for Genz is the lowest.
 
-#### Highest Educational Attainment Analysis
+### Highest Educational Attainment Analysis
 The fourth regression analysis was conducted to determine the associated effect of having one educational attainment level during the COVID-19 pandemic has on a person's probability of being employed relative to having another educational attainment level during the COVID-19 pandemic. 
 ![Education Analysis](/Images/seven.png)
 
@@ -191,7 +191,7 @@ Above in Figure 4 during approximately March of 2020, you will see an immediate 
 Since the beginnings of quarantine, employment rates have gone up but given the continued pandemic-induced State of Emergency that the US continues to still be in, its also reasonable to see that employment rates have not yet returned to the levels they were at pre-COVID-19. At it's worst, this sharp decline in employment rate was more severe for the employment rate of women compared to the employment rate for men, which properly reflects the findings from our linear probability regression analysis. We can see from Figure 4 that the group with below a high school degree, as of October 2020 the employment rate for this group has been on a steady decline.
 
 
-#### Racial Category Analysis
+### Racial Category Analysis
 The fifth and final regression analysis was conducted to determine the effect being one race during the COVID-19 pandemic has on a person's probability of being employed relative to having another race during the COVID-19 pandemic. 
 ![Racial Category Analysis](/Images/nine.png)
 
